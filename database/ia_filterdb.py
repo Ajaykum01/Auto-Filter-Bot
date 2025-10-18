@@ -20,6 +20,10 @@ class Media(Document):
     file_size = fields.IntField(required=True)
     caption = fields.StrField(allow_none=True)
     file_ref = fields.StrField(required=False)
+    
+    # Add the missing fields
+    file_type = fields.StrField(required=False, allow_none=True)
+    mime_type = fields.StrField(required=False, allow_none=True)
 
     class Meta:
         indexes = ('$file_name', )
