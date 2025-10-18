@@ -76,7 +76,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', '@Shinchan_2807')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/shinchan_2807')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+1Smj0GEPAV1hMTg1')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMovie_group')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/kpslinkteam/59")
