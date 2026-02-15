@@ -78,7 +78,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/shinchan_2807')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+1Smj0GEPAV1hMTg1')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMovie_group')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+1Smj0GEPAV1hMTg1')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/kpslinkteam/59")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/kpslinkteam/59")
 
